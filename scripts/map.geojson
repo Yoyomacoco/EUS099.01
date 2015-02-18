@@ -1,39 +1,70 @@
-﻿var geoJson = [{
+var geoJson = [{
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.377674",
-          "52.516224"
-        ]
-      }
-      }
-    ,
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Koenigsplatz Berlin",
-        "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/1280px-Königsplatz_Berlin,_um_1880.jpg", "The Königsplatz with the Raczyński Palace in 1880."],["images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg", "The Reichstag building."]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.376199",
-          "52.517539"
-        ]
-      }
-    },
-  ]
-  }];
+  "features": [ {
+        "type": "Feature",
+        "properties": {
+          "title": "Fernsehturm",
+          "marker-size": "medium",
+          "marker-color": "#3366FF",
+          "marker-symbol": "star-stroked",
+          "images": [
+            ['<img src="images/7991135911_4566825b6a_q.jpg" />',
+              "Fernsehturm"
+            ],
+            ['<img src="images/378962326_766d7975e4_q.jpg" />',
+              "Fernsehturm naeher"
+            ],
+            ['<iframe width="420" height="315" src="https://www.youtube.com/embed/Phy-wSLel4I" frameborder="0" allowfullscreen></iframe>',
+              "Ausblick vom Berliner Fernsehturm by ColonelHogan9162"
+            ]
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            "13.408892",
+            "52.52087"
+          ]
+        }
+        },{
+          "type": "Feature",
+          "properties": {
+            "title": "Berliner Dom",
+            "marker-size": "medium",
+            "marker-color": "#3366FF",
+            "marker-symbol": "star-stroked",
+            "images": [
+              ['<img src="images/4547016348_5c4a81eb5e_q.jpg" />',
+                "Berliner Dom"
+              ]
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              "13.400037",
+              "52.519231"
+            ]
+          }
+          },{
+            "type": "Feature",
+            "properties": {
+              "title": "Checkpoint Charlie",
+              "marker-size": "medium",
+              "marker-color": "#3366FF",
+              "marker-symbol": "star-stroked",
+              "images": [
+                ['<img src="images/378561672_4aa4ec7f6d_q.jpg" />',
+                  "Checkpoint Charlie"
+                ]
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "13.390675",
+                "52.507516"
+              ]
+            }
+            }]
+      }];
