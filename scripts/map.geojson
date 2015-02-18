@@ -5,14 +5,14 @@ var geoJson = [{
         "properties": {
           "title": "Fernsehturm",
           "marker-size": "medium",
-          "marker-color": "#3366FF",
+          "marker-color": "#e5c278",
           "marker-symbol": "star-stroked",
           "images": [
-            ['<img src="images/7991135911_4566825b6a_q.jpg" />',
-              "Fernsehturm"
+            ['<img src="images/4415213648_a7a0ecab4d_q.jpg" />',
+              "Fernsehturm. by Christian Stangier"
             ],
-            ['<img src="images/378962326_766d7975e4_q.jpg" />',
-              "Fernsehturm naeher"
+            ['<img src="images/8656573470_7a613fd698_q.jpg" />',
+              "Fernsehturm Berlin by Christian Reimer"
             ],
             ['<iframe width="420" height="315" src="https://www.youtube.com/embed/Phy-wSLel4I" frameborder="0" allowfullscreen></iframe>',
               "Ausblick vom Berliner Fernsehturm by ColonelHogan9162"
@@ -31,11 +31,11 @@ var geoJson = [{
           "properties": {
             "title": "Berliner Dom",
             "marker-size": "medium",
-            "marker-color": "#3366FF",
+            "marker-color": "#e5c278",
             "marker-symbol": "star-stroked",
             "images": [
               ['<img src="images/4547016348_5c4a81eb5e_q.jpg" />',
-                "Berliner Dom"
+                "berliner dom by fRandi-Shooters"
               ]
             ]
           },
@@ -51,11 +51,11 @@ var geoJson = [{
             "properties": {
               "title": "Checkpoint Charlie",
               "marker-size": "medium",
-              "marker-color": "#3366FF",
+              "marker-color": "#e5c278",
               "marker-symbol": "star-stroked",
               "images": [
                 ['<img src="images/378561672_4aa4ec7f6d_q.jpg" />',
-                  "Checkpoint Charlie"
+                  "The REAL Checkpoint Charlie by Will Palmer"
                 ]
               ]
             },
